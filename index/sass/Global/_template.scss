@@ -34,7 +34,7 @@ section{
             }
         }
         
-        .school{
+        .course-link{
             padding: 10px;
             padding-left: 30px;
             background-color: var(--whiteColor);
@@ -83,7 +83,7 @@ section{
                     }
                 }
                 
-                .school{
+                .course-link{
                     padding: 10px;
                     padding-left: 30px;
                     background-color: var(--principalcolor);
@@ -99,7 +99,7 @@ section{
         }
     }
 
-    .add-school{
+    .add-course{
         padding: 10px 20px;
         border-radius: 20px;
         background-color: var(--whiteColor);
@@ -107,7 +107,7 @@ section{
     }
 
 }
-.ecole-enregistree{
+.cours-enregistree{
     padding: 20px;
 
     .first-item{
@@ -142,7 +142,7 @@ section{
             border-radius: 50%;
         }
     }
-    .ecole{
+    .cours{
         @include display_flex;
         justify-content: space-between;
         div{

@@ -1,0 +1,40 @@
+@media screen and (max-width: 978px) and (max-width: 900px) {
+  .header .menu i {
+    display: initial;
+  }
+  .header .menu .nav-menu {
+    display: initial;
+  }
+  .header .menu .mobile-menu {
+    margin-left: 0;
+  }
+  section {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .left-bloc {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .allitems .cours {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: start;
+  }
+  .allitems .cours div {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .header {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .cours-enregistree {
+    padding: 10px;
+  }
+  .allitems .items .logout {
+    margin-bottom: 10px;
+  }
+}/*# sourceMappingURL=courses.css.map */
