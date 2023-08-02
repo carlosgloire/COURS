@@ -222,6 +222,21 @@ img {
   border: 1px solid var(--blackColor);
 }
 
+select {
+  background-color: var(--whiteColor);
+  border-radius: 5px;
+  border: 0.5px solid var(--gray);
+  padding: 8px;
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0.521);
+  color: var(--whiteColor);
+  border-radius: 5px;
+  border: 0.5px solid var(--gray);
+  padding: 8px;
+}
+
 @media screen and (max-width: 978px) and (max-width: 900px) {
   .header .menu i {
     display: initial;
@@ -238,6 +253,14 @@ img {
   }
   .left-bloc {
     display: none;
+  }
+}
+@media (max-width: 768px) {
+  .cours-enregistree {
+    padding: 10px;
+  }
+  .cours-enregistree .first-item {
+    display: grid;
   }
 }
 @media (max-width: 480px) {

@@ -16,6 +16,14 @@
     display: none;
   }
 }
+@media (max-width: 768px) {
+  .cours-enregistree {
+    padding: 10px;
+  }
+  .cours-enregistree .first-item {
+    display: grid;
+  }
+}
 @media (max-width: 480px) {
   .allitems .cours {
     display: flex;

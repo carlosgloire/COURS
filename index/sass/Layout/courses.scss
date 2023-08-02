@@ -24,7 +24,17 @@
         }
     }
 }
+@include u.breakpoint(tablet){
+    .cours-enregistree{
+        padding: 10px;
+        
+    .first-item{
+        display: grid;
+        
+    }
 
+    } 
+}
 @include u.breakpoint(mobile){
     .allitems{
         .cours{
@@ -44,6 +54,7 @@
     } 
     .cours-enregistree{
         padding: 10px;
+        
     } 
     .allitems{
         .items{
